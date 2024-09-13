@@ -1,0 +1,18 @@
+{
+  "name": "activegoals-landing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "npx tailwindcss -i ./styles.css -o ./dist/output.css --watch",
+    "build:css": "npx tailwindcss -i ./styles.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.11"
+  }
+}
